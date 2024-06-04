@@ -1,0 +1,46 @@
+/*
+link to customize QSlider: 
+https://www.youtube.com/watch?v=y7lRgVVJ2Pk
+*/
+
+/*groove is the line of the QSlider*/
+QSlider#video_line::groove:horizontal{
+  border: 1px solid #999999;
+  height:2px;
+  background-color:gray;
+}
+
+/*handle is the draggable part of QSlider*/
+QSlider#video_line::handle:horizontal{
+  background-color: #2a2a2a;
+  width:16px;
+  margin: -5px -1px;
+  border-radius:5px;
+  border: 1px solid #2a2a2a
+}
+
+*[control_btn="true"]{
+  border:3px solid black;
+  border-radius:10px;
+  background-color: rgba(169, 169, 169, 0.671);
+}
+*[control_btn="true"]:hover{
+  background-color: gray;
+}
+
+QPushButton#full_scr{
+  background-color: gray;
+}
+
+*[volume_slider="true"]::groove:horizontal{
+  border:1px solid gray;
+  background-color:gray;
+  height:2px;
+}
+
+*[volume_slider="true"]::handle:horizontal{
+  border-radius:5px;
+  margin:-5px -1px;
+  background-color:black;
+  width:10px;
+}
