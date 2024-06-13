@@ -129,6 +129,7 @@ class Sun:
 
 if "__main__" == __name__:
   obx = Sun()
+  """
   print("Fractional Year: " + str(obx.getFractionalYear()))
   print("EQ_Time: " + str(obx.get_eqtime()))
   print("Angle Declination: " + str(obx.convertToDegrees(obx.get_decl())))
@@ -137,3 +138,4 @@ if "__main__" == __name__:
   print("Ha: " + str(obx.ha()))
   print("Solar Zenith Angle: " + str(obx.solarZenith()))
   print("Solar Azimuth Angle: " + str(obx.solarAzimuth()))
+  """
